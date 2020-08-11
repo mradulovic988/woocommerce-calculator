@@ -4,23 +4,21 @@
  *
  * Loads all method for the calculator on the product page
  *
- * @package Fix_Calculator
- * @author Marko FixRunner <marko@fixrunner.com>
+ * @package Calculator
+ * @author Marko
  * @version 1.0.0
- * @link https://www.fixrunner.com/
  */
 
-if ( !class_exists( 'Fix_Calculator' ) ) {
+if ( !class_exists( 'Calculator' ) ) {
 
 	/**
 	 * Define the calculator functionality
 	 *
-	 * @package Fix_Calculator
-	 * @author Marko FixRunner <marko@fixrunner.com>
+	 * @package Calculator
+	 * @author Marko 
 	 * @version 1.0.0
-	 * @link https://www.fixrunner.com/
 	 */
-	class Fix_Calculator
+	class Calculator
 	{
 
 		/**
@@ -77,19 +75,19 @@ if ( !class_exists( 'Fix_Calculator' ) ) {
 		protected $message;
 
 		/**
-		 * Fix_Calculator constructor.
+		 * Calculator constructor.
          *
          * Using this to initializing all of the
-         * necessary method inside Fix_Calculator class
+         * necessary method inside Calculator class
 		 */
 		public function __construct(){}
 
 		/**
-         * Fix_Calculator destructor.
+         * Calculator destructor.
          *
 		 * Implement __destruct() method. Using this to
          * destruct all of the necessary method
-         * inside Fix_Calculator class
+         * inside Calculator class
 		 */
 		public function __destruct(){}
 
